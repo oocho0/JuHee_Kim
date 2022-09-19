@@ -8,9 +8,9 @@ oochoo's study note
  |:---:|:---:|:---:|:---:|
  |Python interface|22/10/25|22/10/30|[ ]|
  |Python0programming|22/12/08|22/12/16|[ ]|
- |R-programming|-2/11/23|22/12/02|[ ]|
+ |R-programming|22/11/23|22/12/02|[ ]|
  |SQL| - | - |[ ]|
  |HTML| - | - |[ ]|
- |CSS| - | - |[ ]|
+ |CSS| - | - |[x]|
  |JavaScript| - | - |[ ]|
  |MariaDB| - | - |[ ]|
