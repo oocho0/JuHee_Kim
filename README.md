@@ -1,7 +1,5 @@
 oochoo's study note
 =====================
-[My Notion-부딪히며 배운 Markdown](https://efficient-dance-088.notion.site/Markdown-454df33fd27e4832835e8e63ddb8764e)
-***
 
 ##### notes for learning python, R, django, DB(SQLite) and machine learning
 * * *
@@ -17,3 +15,9 @@ oochoo's study note
 |*AJAX*| | | |
 |*JavaScript*| | | |
 |*MariaDB*| | | |
+***
+***
+[My Notion-부딪치며 배운 Markdown](https://efficient-dance-088.notion.site/Markdown-454df33fd27e4832835e8e63ddb8764e)
+***
+[My Notion-부딪치며 배운 GitHub README.md 꾸미기](https://efficient-dance-088.notion.site/GitHub-README-md-2eb88f38e8204ce79984f4fb2287552e)
+***
