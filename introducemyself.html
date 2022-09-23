@@ -15,13 +15,11 @@
                     font-family: 'GangwonEdu_OTFBoldA';
             }
             header {
-                    height: 340px;
-                    background-color : #FFE4C4;
-            }
-            div {
                     margin-left : auto;
                     margin-right : auto;
                     text-align : center;
+                    height: 260px;
+                    background-color : #FFE4C4;
             }
             h1 {
                     font-size : 40pt;
@@ -43,15 +41,24 @@
                     font-size : 15pt;
            }
            section {
+                    margin-left : auto;
+                    margin-right : auto;
+                    text-align : center;
                     background-color : #FAF0E6;
            }
            article {
                     background-color : #FFFAF0;
            }
+           h2 {
+                    text-align : center;
+                    font-weight : bold;
+                    font-size : 25pt;
+                    color : #8B4513;
+            }
            nav {
                     background-color : #FFEFD5;
            }
-           #center {
+           .center {
                     padding-top : 4px;
                     padding-bottom : 4px;
                     padding-left : 6px;
@@ -62,74 +69,85 @@
                     background-color : #FFE4E1;
                     text-align : center;
             }
-           article-nth-of-type(3){
-                    float : right;
-                    background- color: #FDF5E6;
-                    text-align : center;
-           }
-            footer {
-                    width : 100%
-                    height : 30px
-                    clear : both;
-                    background-color : #FFFFFF;
-                    font-size : 11pt;
-                    text-align : right;
-            }
-            a {
-                    font-size : 15pt;
-                    color : #708090;
-            }
-            a:hover {
-                    font-weight : bold;
-                    background-color : #FFFAF0;
-                    color : #000000;
-                    font-size : 18pt;
-            }
-            img {
-                    width : 50%;
-                    vertical-align : middle;
-             }
-            img:hover {
-                opacity : 0.2;
-            }
-            h2 {
-                    text-align : center;
-                    font-weight : bold;
-                    font-size : 25pt;
-                    color : #8B4513;
-            }
-            h3 {
+           h3 {
                     margin-left : auto;
                     margin-right : auto;
                     text-align : center;
                     color : #CD5C5C;
                     font-size : 25pt;
-            }
-            h4 {
-                    font-size : 20pt;
-                    color: #778899;
-            }
-            table {
+           }
+           table {
                     background-color : white;
                     margin-left : auto;
                     font-family : 'GangwonEdu_OTFBoldA';
                     margin-right : auto;
                     text-align : center;
                     color : #2f4f4f;
-                    font-size : 24pt;
+                    font-size : 18pt;
            }
-            .contents {
+           .first_row {
+                    font-size : 23pt;
+           }
+           a {
+                    font-size : 15pt;
+                    color : #708090;
+           }
+           a:hover {
+                    font-weight : bold;
+                    background-color : #FFFAF0;
+                    color : #000000;
+                    font-size : 18pt;
+           }
+           img {
+                    width : 50%;
+                    vertical-align : middle;
+           }
+           img:hover {
+                opacity : 0.2;
+           }
+           article-nth-of-type(3){
+                    float : right;
+                    background- color: #FDF5E6;
+                    text-align : center;
+           }
+           h4 {
+                    font-size : 20pt;
+                    color: #778899;
+           }
+           .contents {
                     font-size : 15pt;
                     text-align : center;
                     vertical-align : bottom;
-            }
-
+           }
+           figure {
+                    margin-left : auto;
+                    margin-right : auto;
+                    text-align : center;
+                    float : left;
+           }
+           figcation {
+                    color : #708090;
+                    font-size : 15pt;
+           }
+           aside {
+                    margin-left : auto;
+                    margin-right : auto;
+                    text-align : center;
+                    float : right;
+           }
+           footer {
+                    width : 100%
+                    height : 30px
+                    clear : both;
+                    background-color : #FFFFFF;
+                    font-size : 11pt;
+                    text-align : right;
+           }
     </style>
 </head>
 
 <body>
-<header>
-    <div><h1>My! My! My!</h1></div>
+<header><h1>My! My! My!</h1>
     <ul>
         <li>Name : JuHee Fausta Kim (you can call me, July)</li>
         <li>instagram : @oochoo__</li>
@@ -137,43 +155,30 @@
         <li>hobby : exercise and play the instruments</li>
     </ul>
 </header>
-<section>
-    <article>
-        <div><h2>My exercise web-site</h2></div>
-        <nav>
-            <div id="center">
+<section><article><h2>My exercise web-site</h2>
+        <nav><span class="center">
                 <a href="https://www.padi.co.kr/ko">SCUBA Diving</a>
                 <a href="https://band.us/band/76592922">Wind-Surfing</a>
-                <a href="https://www.boulderfriends.com/">Boulder Climbing</a>
-            </div>
+                <a href="https://www.boulderfriends.com/">Boulder Climbing</a></span>
         </nav>
     </article>
-    <article>
-        <div><h3>My fav. singer & album</h3></div>
+    <article><h3>My fav. singer & album</h3>
         <table border="3">
-            <tr><th>fav. singer</th><th>my one-pick album</th></tr>
+            <tr><th><span class="first_row">fav. singer</span></th><th><span class="first_row">my one-pick album</span></th></tr>
             <tr><td><img src="https://dimg.donga.com/wps/NEWS/IMAGE/2019/12/02/98616419.1.jpg"><br>김동률</td><td><img src="https://image.genie.co.kr/Y/IMAGE/IMG_ALBUM/080/466/539/80466539_1412082775529_1_600x600.JPG/dims/resize/Q_80,0"><br>동행</td></tr>
             <tr><td><img src="https://i1.sndcdn.com/artworks-dhQQa8YjcxLzrU3T-KrXZPg-t500x500.jpg"><br>Kendrick Lamar</td><td><img src="https://upload.wikimedia.org/wikipedia/en/5/51/Kendrick_Lamar_-_Damn.png"><br>DAMN.</td></tr>
             <tr><td><img src="https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTQ3Mzg3MjY0ODg2OTA4NTk5/j_cole_photo_by_isaac_brekken_wireimage_getty_503069628.jpg"><br>J.cole</td><td><img src="http://gimbabrecords.com/web/product/small/201705/7087_shop1_369812.jpg"><br>4 Your Eyez Only</td></tr>
             <tr><td><img src="https://upload.wikimedia.org/wikipedia/commons/5/52/Adele_for_Vogue_in_2021.png"><br>adele</td><td><img src="https://image.genie.co.kr/Y/IMAGE/IMG_ALBUM/080/747/073/80747073_1448003294137_1_600x600.JPG/dims/resize/Q_80,0"><br>25</td></tr>
         </table>
     </article>
-    <article>
-        <div><h3>The place I want to travel someday</h3></div>
-        <div><h4>Firenze (Florence) in Italy</h4></div>
-        <span class="contents"><a href="https://en.wikipedia.org/wiki/Florence"> Firenze</a> is considered by many academics to have been the birthplace of the Renaissance, becoming a major artistic, cultural, commercial, political, economic and financial center.During this time, Florence rose to a position of enormous influence in Italy, Europe, and beyond. Its turbulent political history includes periods of rule by the powerful Medici family and numerous religious and republican revolutions. From 1865 to 1871 the city served as the capital of the Kingdom of Italy (established in 1861). The Florentine dialect forms the base of Standard Italian and it became the language of culture throughout Italy due to the prestige of the masterpieces by Dante Alighieri, Petrarch, Giovanni Boccaccio, Niccolò Machiavelli and Francesco Guicciardini. The city attracts millions of tourists each year, and UNESCO declared the Historic Centre of Florence a World Heritage Site in 1982.</span>
+    <article><h3>The place I want to travel someday</h3>
+        <h4>Firenze (Florence) in Italy</h4>
+        <span class="contents"><a href="https://en.wikipedia.org/wiki/Florence"> Firenze</a> is considered by many academics to have been the birthplace of the Renaissance, becoming a major artistic, cultural, commercial, political, economic and financial center.During this time, Florence rose to a position of enormous influence in Italy, Europe, and beyond. Its turbulent political history includes periods of rule by the powerful Medici family and numerous religious and republican revolutions. From 1865 to 1871 the city served as the capital of the Kingdom of Italy (established in 1861). The Florentine dialect forms the base of Standard Italian and it became the language of culture throughout Italy due to the prestige of the masterpieces by Dante Alighieri, Petrarch, Giovanni Boccaccio, Niccolo Machiavelli and Francesco Guicciardini. The city attracts millions of tourists each year, and UNESCO declared the Historic Centre of Florence a World Heritage Site in 1982.</span>
         <figure>
             <figcaption>Masterpieces of the Florence</figcaption>
-            <div><img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Collage_Firenze.jpg" align="center"><br>
-            </div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Collage_Firenze.jpg" align="center">
         </figure>
-        <aside>
-            <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/UsnEX58UPTI"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-            </div>
+        <aside><iframe width="560" height="315" src="https://www.youtube.com/embed/UsnEX58UPTI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </aside>
     </article>
 </section>
