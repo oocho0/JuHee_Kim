@@ -34,4 +34,5 @@ used_points(mydong, 2000)
 current_available_points(mydong)
 
 used_points(dalgom, 3000)
+
 current_available_points(dalgom)
