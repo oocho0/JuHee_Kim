@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko" xmlns="">
+<html lang="ko" xmlns="" xmlns="">
 <head>
     <meta charset="UTF-8">
     <title>HTML&CSS Exercise by oochoo</title>
@@ -44,7 +44,6 @@
            section {
                     margin-left : auto;
                     margin-right : auto;
-                    text-align : center;
            }
            article{
                     height : 140px;
@@ -57,6 +56,7 @@
                     font-weight : bold;
                     font-size : 25pt;
                     color : #8B4513;
+                    text-align : center;
            }
            nav {
                     padding-top : 10px;
@@ -64,12 +64,14 @@
                     margin-left : 80px;
                     margin-right : 80px;
                     background-color : #FFEFD5;
+                    text-align : center;
            }
            .center {
                     padding-top : 4px;
                     padding-bottom : 4px;
                     padding-left : 6px;
                     padding-right : 6px;
+                    text-align : center;
            }
            article:nth-of-type(2){
                     height : 1100px;
@@ -83,6 +85,7 @@
                     padding-bottom : 30px;
                     color : #CD5C5C;
                     font-size : 25pt;
+                    text-align : center;
            }
            table {
                     background-color : #ffffff;
@@ -133,26 +136,27 @@
                     font-size : 13pt;
                     text-align : left;
            }
-          figure {
-                    margin-left : auto;
-                    margin-right : auto;
-                    text-align : center;
-          }
-          figcaption {
+           h6 {
                     padding-top : 30px;
                     padding-bottom : 30px;
                     color : #708090;
                     font-size : 20pt;
                     text-align : center;
           }
-          aside {
-                    margin-left : auto;
-                    margin-right: auto;
-                    text-align : center;
+          #fireze {
                     padding-top : 30px;
+                    -left : 120px;
+                    float : left;
+          }
+          iframe {
+                    padding-top : 0px;
                     padding-bottom : 30px;
+                    padding-right : 40px;
+                    padding-left : 20 px;
+                    float : right;
           }
           footer {
+                    display : clear:
                     width : 100%;
                     height : 30px;
                     clear : both;
@@ -191,10 +195,9 @@
     <article><h3>The place I want to travel someday</h3>
         <h4>Firenze (Florence) in Italy</h4>
         <h5><a href="https://en.wikipedia.org/wiki/Florence"> Firenze</a> is considered by many academics to have been the birthplace of the Renaissance, becoming a major artistic, cultural, commercial, political, economic and financial center.During this time, Florence rose to a position of enormous influence in Italy, Europe, and beyond. Its turbulent political history includes periods of rule by the powerful Medici family and numerous religious and republican revolutions. From 1865 to 1871 the city served as the capital of the Kingdom of Italy (established in 1861). The Florentine dialect forms the base of Standard Italian and it became the language of culture throughout Italy due to the prestige of the masterpieces by Dante Alighieri, Petrarch, Giovanni Boccaccio, Niccolo Machiavelli and Francesco Guicciardini. The city attracts millions of tourists each year, and UNESCO declared the Historic Centre of Florence a World Heritage Site in 1982.</h5>
-        <figure><figcaption>Masterpieces of the Florence</figcaption>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Collage_Firenze.jpg" ></figure>
-        <aside><iframe width="560" height="315" src="https://www.youtube.com/embed/UsnEX58UPTI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </aside>
+        <h6>Masterpieces of the Florence</h6>
+        <img id="firenze" src="https://upload.wikimedia.org/wikipedia/commons/6/63/Collage_Firenze.jpg">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/UsnEX58UPTI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </article>
 </section>
 <footer><em>JuHee Kim made this HTML file by HTML5 & CSS3 technology in September 21st 2022.</em></footer>
