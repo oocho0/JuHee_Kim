@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS 실습 1</title>
+    <style>
+    @font-face {
+        font-family: 'ChosunCentennial';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/ChosunCentennial.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+       }
+       h1 {
+                background-image : linear-gradient(25deg, #faebd7, #faebd7, #fffff0, #fffaf0, #fffff0, #faebd7, #faebd7);
+                width : 60%;
+                vertical-align : middle;
+                margin-left : auto ;
+                margin-right : auto;
+                text-align : center;
+                border-radius : 45px;
+                line-height : 100px;
+                border : 10px solid #DEB887;
+       }
+       div {
+                margin-left : auto;
+                margin-right : auto;
+                text-align : center;
+       }
+       .font_style_1 {
+                color : #556b2f;
+                font-size : 20pt;
+                font-family: 'ChosunCentennial';
+       }
+       .font_style_2 {
+                color : #8fbc8f;
+                font-size : 35pt;
+                font-family: 'ChosunCentennial';
+       }
+       img {
+                margin : 5px;
+                width : 150px;
+                height : 150px;
+                border-radius : 10px;
+                box-shadow : 10px 10px 40px #d3d3d3;
+       }
+       img:hover {
+                opacity :  0.3
+       }
+    </style>
+</head>
+<body>
+    <h1><span class="font_style_1" >The day of</span><span class="font_style_2"> My dalgom</span></h1>
+    <hr>
+    <div>
+        <img src="../images/dalgom1.jpg" >
+        <img src="../images/dalgom2.jpg" >
+        <img src="../images/dalgom3.jpg">
+    </div>
+    <div>
+        <img src="../images/dalgom4.jpg" >
+        <img src="../images/dalgom5.jpeg" >
+        <img src="../images/dalgom6.jpg" >
+    </div>
+</body>
+</html>
