@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>the random draw</title>
+</head>
+<body>
+<script>
+    var winners = 4;
+    var candidates = '._3b-9>div>.UFIComment .UFICommentActorName';
+    function shuffle(a) {
+      for (let i = a.length; i ; i--) {
+        let j = Math. floor(Math.random() * i);
+          [a[i - 1], a[j]] = [a[j], a[i-1]];
+        console.log(i+','+j);
+      }
+    }
+    var list = [];
+    document.querySelectorAll(candidates).forEach(function(e) {
+      list.push(e.innerText);
+    });
+    list = list.filer((v, i, a) = > a.indexOf(v)===i);
+    shuffle(list)
+    console.log(list.slice(0, winners));
+</script>
+</body>
+</html>

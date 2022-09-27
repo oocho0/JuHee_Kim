@@ -8,7 +8,7 @@ oochoo's study note
 :--:|:---:|:---:|:---:
 *Python interface*|22 / 10 / 25|22 / 10 / 30|<input type="Checkbox">
 *Python-programming*|22 / 12 / 08|22 / 12 / 16| <input type="Checkbox">
-*R*|22 / 11 / 23|22 / 12 / 02|<input type="Checkbox">
+*R interface*|22 / 11 / 23|22 / 12 / 02|<input type="Checkbox">
 *R-programming*|22 / 11 / 23|22 / 12 / 02|<input type="Checkbox">
 *Django* |-|-|<input type="Checkbox">
 *SQL*|-|-|<input type="Checkbox">
