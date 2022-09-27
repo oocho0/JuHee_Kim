@@ -18,14 +18,14 @@ oochoo's study note
 *AJAX*|-|-|<input type="Checkbox">
 *MariaDB*|-|-|<input type="Checkbox">
 ***
-[introduce my self site](http://192.168.0.22:8887/HTML%2BCSS%2BJavaScript/introducemyself.html")<br>
-[my first Website with href](http://192.168.0.22:8887/HTML%2BCSS%2BJavaScript/first_title.html)<br>
-[learning CSS3 various functions : the day of MY dalgom page](http://192.168.0.22:8887/HTML%2BCSS%2BJavaScript/Start_JaveScript.html)<br>
-[additional function with HTML site including checkbox, comment, chatting](http://192.168.0.22:8887/HTML%2BCSS%2BJavaScript/secondfile.html)<br>
-[difference from static HTML and activity JS](http://192.168.0.22:8887/HTML%2BCSS%2BJavaScript/Start_JaveScript.html)<br>
-[making a button & input textbox with alert site](http://192.168.0.22:8887/HTML%2BCSS%2BJavaScript/make_buttons_by_JS.html)<br>
+1. [introduce my self site](http://192.168.0.22:8887/HTML%2BCSS%2BJavaScript/introducemyself.html")<br>
+2. [my first Website with href](http://192.168.0.22:8887/HTML%2BCSS%2BJavaScript/first_title.html)<br>
+3. [learning CSS3 various functions : the day of MY dalgom page](http://192.168.0.22:8887/HTML%2BCSS%2BJavaScript/Start_JaveScript.html)<br>
+4. [additional function with HTML site including checkbox, comment, chatting](http://192.168.0.22:8887/HTML%2BCSS%2BJavaScript/secondfile.html)<br>
+5. [difference from static HTML and activity JS](http://192.168.0.22:8887/HTML%2BCSS%2BJavaScript/Start_JaveScript.html)<br>
+6. [making a button & input textbox with alert site](http://192.168.0.22:8887/HTML%2BCSS%2BJavaScript/make_buttons_by_JS.html)<br>
 ***
-[My Notion-Markdown](https://efficient-dance-088.notion.site/Markdown-454df33fd27e4832835e8e63ddb8764e)<br>
+* [My Notion-Markdown](https://efficient-dance-088.notion.site/Markdown-454df33fd27e4832835e8e63ddb8764e)<br>
 ***
-[My Notion-Decoration my GitHub README.md](https://efficient-dance-088.notion.site/GitHub-README-md-2eb88f38e8204ce79984f4fb2287552e)<br>
+* [My Notion-Decoration my GitHub README.md](https://efficient-dance-088.notion.site/GitHub-README-md-2eb88f38e8204ce79984f4fb2287552e)<br>
 ***
