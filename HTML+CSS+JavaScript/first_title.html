@@ -12,8 +12,14 @@
 </head>
 <body>
 <h1><a href="first_title.html">WEB</a></h1>
-<input type="button" value="night" onclick="">
-<input type='button' value="day" onclick="">
+<input type="button" value="night" onclick="
+        document.querySelector('body').style.backgroundColor = 'black';
+        document.querySelector('body').style.color = 'white';
+">
+<input type='button' value="day" onclick="
+        document.querySelector('body').style.backgroundColor = 'white';
+        document.querySelector('body').style.color = 'black';
+">
 <ol>
     <li><a href="first_HTML.html">HTML</a></li>
     <li><a href="first_CSS.html">CSS</a></li>
