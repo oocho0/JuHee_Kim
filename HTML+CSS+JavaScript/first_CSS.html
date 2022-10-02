@@ -3,18 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <title>CSS_of_start_to_learn_HTML</title>
+        <style>
+        @font-face {
+            font-family: 'DOSGothic';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSGothic.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        * {
+            font-family: 'DOSGothic';
+            font-size : 14pt;
+        }
+        h1 {
+            font-size : 32pt;
+        }
+        h2 {
+            font-size : 22pt;
+        }
+        ol {
+            font-size : 18pt;
+        }
+        input {
+            font-size : 10pt;
+        }
+    </style>
 </head>
 <body>
-<h1><a href="first_title.html">WEB (2) CSS</a></h1>
-<ol>
-    <li><a href="first_HTML.html">HTML</a></li>
-    <li><a href="first_CSS.html">CSS</a></li>
-    <li><a href="first_JS.html">JavaScript</a></li>
-</ol>
-<h2>[ What is CSS? ]</h2>
-<a href="https://en.wikipedia.org/wiki/CSS" target="_blank" title="CSS wikipedia">Cascading Style Sheets (CSS) </a> is <strong>style sheet language</strong> used for describing the presentation of a document written in a markup language such as <u>HTML or XML</u> (including XML dialects such as SVG, MathML or XHTML).
-<p>CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
-<p style="margin-top:40px;">CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.</p>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1024px-CSS3_logo_and_wordmark.svg.png" width="80%">
+    <h1>
+        <a href="first_title.html">WEB (2) CSS</a>
+    </h1>
+    <input type="button" value="night" onclick="
+        var target = document.querySelector('body');
+        if (this.value === 'night'){
+            target.style.backgroundColor = 'black';
+            target.style.color = 'white';
+            this.value = 'day';
+        } else  {
+            target.style.backgroundColor = 'white';
+            target.style.color = 'black';
+            this.value = 'night';
+        }
+   ">
+    <ol>
+        <li><a href="first_HTML.html">HTML</a></li>
+        <li><a href="first_CSS.html">CSS</a></li>
+        <li><a href="first_JS.html">JavaScript</a></li>
+    </ol>
+    <hr>
+    <h2>
+        [ What is CSS? ]
+    </h2>
+    <a href="https://en.wikipedia.org/wiki/CSS" target="_blank" title="CSS wikipedia">Cascading Style Sheets (CSS) </a> is <strong>style sheet language</strong> used for describing the presentation of a document written in a markup language such as <u>HTML or XML</u> (including XML dialects such as SVG, MathML or XHTML).
+    <p>CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
+    <p style="margin-top:40px;">CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1024px-CSS3_logo_and_wordmark.svg.png" width="300px">
 </body>
 </html>

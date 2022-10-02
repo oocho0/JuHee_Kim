@@ -3,18 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <title>HTML_of_start_to_learn_HTML</title>
+        <style>
+        @font-face {
+            font-family: 'DOSGothic';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSGothic.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        * {
+            font-family: 'DOSGothic';
+            font-size : 14pt;
+        }
+        h1 {
+            font-size : 32pt;
+        }
+        h2 {
+            font-size : 22pt;
+        }
+        ol {
+            font-size : 18pt;
+        }
+        input {
+            font-size : 10pt;
+        }
+    </style>
 </head>
 <body>
-<h1><a href="first_title.html">WEB (1) HTML</a></h1>
-<ol>
-    <li><a href="first_HTML.html">HTML</a></li>
-    <li><a href="first_CSS.html">CSS</a></li>
-    <li><a href="first_JS.html">JavaScript</a></li>
-</ol>
-<h2>[ What is HTML? ]</h2>
-<a href="https://en.wikipedia.org/wiki/HTML" target="_blank" title="HTML5 wikipedia">Hypertext Markup Language (HTML) </a> is <strong>the standard markup language</strong> for documents designed to be displayed in a <u>web</u> browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
-<p>Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</p>
-<p style="margin-top:40px;">HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets.</p>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1280px-HTML5_logo_and_wordmark.svg.png" width="80%">
+    <h1><a href="first_title.html">WEB (1) HTML</a></h1>
+    <input type="button" value="night" onclick="
+        var target = document.querySelector('body');
+        if (this.value === 'night'){
+            target.style.backgroundColor = 'black';
+            target.style.color = 'white';
+            this.value = 'day';
+        } else  {
+            target.style.backgroundColor = 'white';
+            target.style.color = 'black';
+            this.value = 'night';
+        }
+   ">
+    <ol>
+        <li><a href="first_HTML.html">HTML</a></li>
+        <li><a href="first_CSS.html">CSS</a></li>
+        <li><a href="first_JS.html">JavaScript</a></li>
+    </ol>
+    <hr>
+    <h2>[ What is HTML? ]</h2>
+    <a href="https://en.wikipedia.org/wiki/HTML" target="_blank" title="HTML5 wikipedia">Hypertext Markup Language (HTML) </a> is <strong>the standard markup language</strong> for documents designed to be displayed in a <u>web</u> browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+    <p>Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</p>
+    <p style="margin-top:40px;">HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1280px-HTML5_logo_and_wordmark.svg.png" width="300px">
 </body>
 </html>
