@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>JS_of_start_to_learn_HTML</title>
@@ -12,10 +12,6 @@
         }
         * {
             font-family: 'DOSGothic';
-            font-size : 14pt;
-        }
-        h1 {
-            font-size : 32pt;
         }
         h2 {
             font-size : 22pt;
@@ -37,21 +33,37 @@
             color: blue;
         }
     </style>
+    <script>
+        function handler(self) {
+            var target = document.querySelector('body');
+            if (self.value === 'night'){
+                target.style.backgroundColor = 'black';
+                target.style.color = 'white';
+                self.value = 'day';
+                var alist = document.querySelectorAll('a');
+                var i = 0;
+                while(i < alist.length) {
+                    alist[i].style.color = 'powderblue';
+                    i += 1;
+                }
+            } else  {
+                target.style.backgroundColor = 'white';
+                target.style.color = 'black';
+                self.value = 'night';
+                var alist = document.querySelectorAll('a');
+                var i = 0;
+                while(i < alist.length) {
+                    alist[i].style.color = 'blue';
+                    i += 1;
+                }
+            }
+        }
+    </script>
 </head>
+
 <body>
     <h1><a href="first_title.html">WEB (3) JavaScript</a></h1>
-    <input type="button" value="night" onclick="
-        var target = document.querySelector('body');
-        if (this.value === 'night'){
-            target.style.backgroundColor = 'black';
-            target.style.color = 'white';
-            this.value = 'day';
-        } else  {
-            target.style.backgroundColor = 'white';
-            target.style.color = 'black';
-            this.value = 'night';
-        }
-   ">
+    <input type="button" value="night" onclick="handler(this);">
     <br>
     <ol>
         <li><a href="first_HTML.html">HTML</a></li>
@@ -64,5 +76,8 @@
     <p><span id='first' class='js;'>JavaScript</span> is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard.</p>
     <p style="margin-top:40px;"> It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has <strong>application programming interfaces (APIs)</strong> for working with text, dates, regular expressions, standard data structures, and <strong> the Document Object Model (DOM)</strong>
     .</p>
-    <img src="https://logosdownload.com/logo/javascript-logo-big.png" width="300px"></body>
-    </html>
+    <img src="https://logosdownload.com/logo/javascript-logo-big.png" width="300px">
+    <hr>
+    <input type="button" value="night" onclick="handler(this);">
+</body>
+</html>

@@ -12,10 +12,6 @@
         }
         * {
             font-family: 'DOSGothic';
-            font-size : 14pt;
-        }
-        h1 {
-            font-size : 32pt;
         }
         h2 {
             font-size : 22pt;
@@ -27,21 +23,36 @@
             font-size : 10pt;
         }
     </style>
+    <script>
+        function handler(self) {
+            var target = document.querySelector('body');
+            if (self.value === 'night'){
+                target.style.backgroundColor = 'black';
+                target.style.color = 'white';
+                self.value = 'day';
+                var alist = document.querySelectorAll('a');
+                var i = 0;
+                while(i < alist.length) {
+                    alist[i].style.color = 'powderblue';
+                    i += 1;
+                }
+            } else  {
+                target.style.backgroundColor = 'white';
+                target.style.color = 'black';
+                self.value = 'night';
+                var alist = document.querySelectorAll('a');
+                var i = 0;
+                while(i < alist.length) {
+                    alist[i].style.color = 'blue';
+                    i += 1;
+                }
+            }
+        }
+    </script>
 </head>
 <body>
     <h1><a href="first_title.html">WEB</a></h1>
-    <input type="button" value="night" onclick="
-        var target = document.querySelector('body');
-        if (this.value === 'night'){
-            target.style.backgroundColor = 'black';
-            target.style.color = 'white';
-            this.value = 'day';
-        } else  {
-            target.style.backgroundColor = 'white';
-            target.style.color = 'black';
-            this.value = 'night';
-        }
-   ">
+    <input type="button" value="night" onclick="handler(this);">
     <ol>
         <li><a href="first_HTML.html">HTML</a></li>
         <li><a href="first_CSS.html">CSS</a></li>
@@ -54,5 +65,7 @@
     <p>Documents and downloadable media are made available to the network through web servers and can be accessed by programs such as web browsers. Servers and resources on the World Wide Web are identified and located through character strings called uniform resource locators (URLs).</p>
     <p style="margin-top:40px;"> The original and still very common document type is a web page formatted in Hypertext Markup Language (HTML). This markup language supports plain text, images, embedded video and audio contents, and scripts (short programs) that implement complex user interaction.</p>
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/WWW-LetShare.svg/1920px-WWW-LetShare.svg.png" width="300px">
+    <hr>
+    <input type="button" value="night" onclick="handler(this);">
 </body>
 </html>
