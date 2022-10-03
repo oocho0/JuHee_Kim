@@ -64,13 +64,13 @@ p {
    margin : 0px;
 }
 @media(max-width: 800px) {
-   #parent {
-       display:  block;
-   }
-   .right {
-       border-left : none;
-   }
-   h1 {
-       border-bottom : none;
-   }
+       #parent {
+           display:  block;
+       }
+       .right {
+           border-left : none;
+       }
+       h1 {
+           border-bottom : none;
+       }
 }
