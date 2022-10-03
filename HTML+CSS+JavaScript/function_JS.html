@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Function</title>
+    <style>
+        @font-face {
+            font-family: 'GangwonEduSaeeum_OTFMediumA';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduSaeeum_OTFMediumA.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        * {
+            font-family: 'GangwonEduSaeeum_OTFMediumA';
+            font-size : 25pt;
+        }
+    </style>
+</head>
+<body>
+    <h1>Function</h1>
+    <h2>Basic</h2>
+    <ul>
+        <script>
+        function mydong() {
+            document.write('<li>mydong-1</li>');
+            document.write('<li>mydong-2</li>');
+        }
+            document.write('<li>oochoo</li>');
+            mydong();
+            document.write('<li>dalgom</li>');
+            mydong();
+            document.write('<li>puleum</li>');
+        </script>
+    </ul>
+    <h2>Parameter & Argument</h2>
+    <script>
+        function plus() {
+            document.write(30 + 32, '<br>');
+        }
+        function sum(argu1, argu2) {
+            document.write(argu1 + argu2, '<br>');
+        }
+        function sumRed(para1, para2) {
+            document.write('<span style="color: red;">', para1 + para2, '</span> <br>');
+        }
+       document.write('function plus() = ');
+       plus() ;
+       document.write('function sum(1, 2) = ');
+       sum(1, 2);
+       document.write('function sum(30, 32) = ');
+       sum(30, 32);
+       document.write('function sumRed(1, 2) = ');
+       sumRed(1, 2);
+       document.write('function sumRed(30, 32) = ');
+       sumRed(30, 32);
+    </script>
+    <h2>Return</h2>
+    <script>
+        function sum2(argu3, argu4){
+
+        }
+    </script>
+</body>
+</html>
