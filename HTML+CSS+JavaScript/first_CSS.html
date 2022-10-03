@@ -27,17 +27,11 @@
         }
         h2 {
             font-size : 120%;
-            width: 70%;
         }
         ol {
             font-size : 18pt;
-            width : 30%;
-            border-right : 2px solid gray;
-            margin-left : 30px;
-            margin-right : 0px;
-            margin-top : 0px;
-            margin-bottom : 0px;
-            padding : 20px;
+            margin : 0px;
+            padding-top : 12px;
         }
         input {
             font-size : 10pt;
@@ -48,12 +42,25 @@
             color: black;
             text-decoration: none;
         }
-        .saw {
-            color: gray;
+        div {
+            margin-top : 0px;
         }
-        #active {
-            color: red;
+        .left {
+            margin-left : 32px;
+            margin-right : 20px;
         }
+        .right {
+            margin-left : 20px;
+            padding: 20px;
+            border-left : 2px solid gray;
+        }
+       #parent {
+           display:  grid;
+           grid-template-columns: 1fr 4fr;
+       }
+       p {
+           margin : 0px;
+       }
     </style>
 </head>
 <body>
@@ -62,17 +69,22 @@
         <br>
         <input type="button" value="night" onclick="handler(this);">
     </h1>
-    <ol>
-        <li><a href="first_HTML.html" class="saw">HTML</a></li>
-        <li><a href="first_CSS.html" class="saw" id="active">CSS</a></li>
-        <li><a href="first_JS.html">JavaScript</a></li>
-    </ol>
-    <h2>
-        [ What is CSS? ]
-    </h2>
-    <a href="https://en.wikipedia.org/wiki/CSS" target="_blank" title="CSS wikipedia">Cascading Style Sheets (CSS) </a> is <strong>style sheet language</strong> used for describing the presentation of a document written in a markup language such as <u>HTML or XML</u> (including XML dialects such as SVG, MathML or XHTML).
-    <p>CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
-    <p style="margin-top:40px;">CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.</p>
+    <div id="parent">
+        <div class="left">
+            <ol>
+                <li><a href="first_HTML.html" class="saw">HTML</a></li>
+                <li><a href="first_CSS.html" class="saw" id="active">CSS</a></li>
+                <li><a href="first_JS.html">JavaScript</a></li>
+            </ol>
+        </div>
+        <div class="right">
+            <h2>
+                [ What is CSS? ]
+            </h2>
+            <a href="https://en.wikipedia.org/wiki/CSS" target="_blank" title="CSS wikipedia">Cascading Style Sheets (CSS) </a> is <strong>style sheet language</strong> used for describing the presentation of a document written in a markup language such as <u>HTML or XML</u> (including XML dialects such as SVG, MathML or XHTML).
+            <p>CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.</p>
+        </div>
+    </div>
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1024px-CSS3_logo_and_wordmark.svg.png" width="300px">
     <hr>
     <input type="button" value="night" onclick="handler(this);">
