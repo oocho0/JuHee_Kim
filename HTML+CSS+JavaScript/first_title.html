@@ -24,28 +24,32 @@
         }
     </style>
     <script>
+        function set1(color) {
+            var alist = document.querySelectorAll('a');
+            var i = 0;
+            while(i < alist.length) {
+                alist[i].style.color = color;
+                i += 1;
+            }
+        }
+        function set2(color) {
+            document.querySelector('body').style.color = color;
+        }
+        function set3(color) {
+            document.querySelector('body').style.backgroundColor = color;
+        }
         function handler(self) {
             var target = document.querySelector('body');
             if (self.value === 'night'){
-                target.style.backgroundColor = 'black';
-                target.style.color = 'white';
+                Body.set3('black');
+                Body.set2('white');
                 self.value = 'day';
-                var alist = document.querySelectorAll('a');
-                var i = 0;
-                while(i < alist.length) {
-                    alist[i].style.color = 'powderblue';
-                    i += 1;
-                }
+                Links.set1('powderblue');
             } else  {
-                target.style.backgroundColor = 'white';
-                target.style.color = 'black';
+                Body.set3('white');
+                Body.set2('black');
                 self.value = 'night';
-                var alist = document.querySelectorAll('a');
-                var i = 0;
-                while(i < alist.length) {
-                    alist[i].style.color = 'blue';
-                    i += 1;
-                }
+                Links.set1('blue');
             }
         }
     </script>
