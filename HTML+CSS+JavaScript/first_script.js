@@ -1,9 +1,11 @@
 var Body = {
     set2: function(color) {
-        document.querySelector('body').style.color = color;
+        $('body').css('color', color);
+ //       document.querySelector('body').style.color = color;
     },
     set3: function(color) {
-        document.querySelector('body').style.backgroundColor = color;
+         $('body').css('backgroundColor', color);
+  //      document.querySelector('body').style.backgroundColor = color;
     }
 }
 var Links = {
