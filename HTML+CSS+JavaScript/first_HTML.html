@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script src="first_script.py"></script>
     <title>HTML_of_start_to_learn_HTML</title>
         <style>
         @font-face {
@@ -23,32 +24,6 @@
             font-size : 10pt;
         }
     </style>
-    <script>
-        function handler(self) {
-            var target = document.querySelector('body');
-            if (self.value === 'night'){
-                target.style.backgroundColor = 'black';
-                target.style.color = 'white';
-                self.value = 'day';
-                var alist = document.querySelectorAll('a');
-                var i = 0;
-                while(i < alist.length) {
-                    alist[i].style.color = 'powderblue';
-                    i += 1;
-                }
-            } else  {
-                target.style.backgroundColor = 'white';
-                target.style.color = 'black';
-                self.value = 'night';
-                var alist = document.querySelectorAll('a');
-                var i = 0;
-                while(i < alist.length) {
-                    alist[i].style.color = 'blue';
-                    i += 1;
-                }
-            }
-        }
-    </script>
 </head>
 <body>
     <h1><a href="first_title.html">WEB (1) HTML</a></h1>
