@@ -4,45 +4,37 @@
     <meta charset="UTF-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="first_script.js"></script>
+    <link rel="stylesheet" href="fist_style.css">
     <title>Title_of_start_to_learn_HTML</title>
-    <style>
-        @font-face {
-            font-family: 'DOSGothic';
-            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSGothic.woff') format('woff');
-            font-weight: normal;
-            font-style: normal;
-        }
-        * {
-            font-family: 'DOSGothic';
-        }
-        h2 {
-            font-size : 22pt;
-        }
-        ol {
-            font-size : 18pt;
-        }
-        input {
-            font-size : 10pt;
-        }
-        a {
-            text-decoration: none;
-        }
-    </style>
 </head>
 <body>
-    <h1><a href="first_title.html">WEB</a></h1>
-    <input type="button" value="night" onclick="handler(this);">
-    <ol>
-        <li><a href="first_HTML.html">HTML</a></li>
-        <li><a href="first_CSS.html">CSS</a></li>
-        <li><a href="first_JS.html">JavaScript</a></li>
-    </ol>
-    <hr>
-    <h2>What is Web?</h2>
-    <br>
-    <a href="https://en.wikipedia.org/wiki/World_Wide_Web/" target="_blank" title="WWW wikipedia">The World Wide We (WWW) </a> commonly known as the <strong>Web</strong>, is an information system enabling documents and other web resources to be accessed over the Internet.
-    <p>Documents and downloadable media are made available to the network through web servers and can be accessed by programs such as web browsers. Servers and resources on the World Wide Web are identified and located through character strings called uniform resource locators (URLs).</p>
-    <p style="margin-top:40px;"> The original and still very common document type is a web page formatted in Hypertext Markup Language (HTML). This markup language supports plain text, images, embedded video and audio contents, and scripts (short programs) that implement complex user interaction.</p>
+    <h1>
+        <a href="first_title.html">WEB</a>
+        <br>
+        <input type="button" value="night" onclick="handler(this);">
+    </h1>
+    <div id="parent">
+        <div class="left">
+            <ol>
+                <li><a href="first_HTML.html">HTML</a></li>
+                <li><a href="first_CSS.html">CSS</a></li>
+                <li><a href="first_JS.html">JavaScript</a></li>
+            </ol>
+        </div>
+        <div class="right">
+            <h2>
+                What is Web?
+            </h2>
+            <p><a href="https://en.wikipedia.org/wiki/World_Wide_Web/" target="_blank" title="WWW wikipedia">The World Wide We (WWW) </a>
+                commonly known as the <strong>Web</strong>, is an information system enabling documents and other web resources to be
+                accessed over the Internet.<br>Documents and downloadable media are made available to the network through web servers
+                and can be accessed by programs such as web browsers. Servers and resources on the World Wide Web are identified
+                and located through character strings called uniform resource locators (URLs).<br> The original and still very common document
+                type is a web page formatted in Hypertext Markup Language (HTML). This markup language supports plain text, images, embedded
+                video and audio contents, and scripts (short programs) that implement complex user interaction.
+            </p>
+        </div>
+    </div>
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/WWW-LetShare.svg/1920px-WWW-LetShare.svg.png" width="300px">
     <hr>
     <input type="button" value="night" onclick="handler(this);">

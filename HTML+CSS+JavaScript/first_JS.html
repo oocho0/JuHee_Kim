@@ -4,57 +4,38 @@
     <meta charset="UTF-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="first_script.js"></script>
+    <link rel="stylesheet" href="fist_style.css">
     <title>JS_of_start_to_learn_HTML</title>
-    <style>
-        @font-face {
-            font-family: 'DOSGothic';
-            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSGothic.woff') format('woff');
-            font-weight: normal;
-            font-style: normal;
-        }
-        * {
-            font-family: 'DOSGothic';
-        }
-        h2 {
-            font-size : 22pt;
-        }
-        ol {
-            font-size : 18pt;
-        }
-        input {
-            font-size : 10pt;
-        }
-        .js {
-            font-weight: bold;
-            color: red;
-        }
-        #first {
-            color: green;
-        }
-        span {
-            color: blue;
-        }
-        a {
-            text-decoration: none;
-        }
-    </style>
 </head>
 
 <body>
-    <h1><a href="first_title.html">WEB (3) JavaScript</a></h1>
-    <input type="button" value="night" onclick="handler(this);">
-    <br>
-    <ol>
-        <li><a href="first_HTML.html">HTML</a></li>
-        <li><a href="first_CSS.html" >CSS</a></li>
-        <li><a href="first_JS.html"><span class="js">JavaScript</span></a></li>
-    </ol>
-    <hr>
-    <h2 style="background-color: coral; color: powderblue;"><span class="js">[ What is JavaScript? ]</span></h2>
-    <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" title="JavaScript wikipedia"><span class="'js;">JavaScript (often abbreviated to JS) </span></a> is a programming language that is <strong>one of the <u>core technologies</u></strong> of the World Wide Web, alongside <span>HTML</span> and <span>CSS</span>.
-    <p><span id='first' class='js;'>JavaScript</span> is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard.</p>
-    <p style="margin-top:40px;"> It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has <strong>application programming interfaces (APIs)</strong> for working with text, dates, regular expressions, standard data structures, and <strong> the Document Object Model (DOM)</strong>
-    .</p>
+    <h1>
+        <a href="first_title.html">WEB (3) JavaScript</a>
+        <br>
+        <input type="button" value="night" onclick="handler(this);">
+    </h1>
+    <div id="parent">
+        <div class="left">
+            <ol>
+                <li><a href="first_HTML.html">HTML</a></li>
+                <li><a href="first_CSS.html" >CSS</a></li>
+                <li><a href="first_JS.html"><span class="js">JavaScript</span></a></li>
+            </ol>
+        </div>
+        <div class="right">
+            <h2>
+                <span class="js">[ What is JavaScript? ]</span>
+            </h2>
+            <p><a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" title="JavaScript wikipedia"><span class="'js;">JavaScript
+                (often abbreviated to JS) </span></a> is a programming language that is <strong>one of the <u>core technologies</u></strong>
+                of the World Wide Web, alongside <span>HTML</span> and <span>CSS</span>.<span id='first' class='js;'>JavaScript</span> is a
+                high-level, often just-in-time compiled language that conforms to the ECMAScript standard. It has dynamic typing,
+                prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative
+                programming styles. It has <strong>application programming interfaces (APIs)</strong> for working with text, dates,
+                regular expressions, standard data structures, and <strong> the Document Object Model (DOM)</strong>.
+            </p>
+        </div>
+    </div>
     <img src="https://logosdownload.com/logo/javascript-logo-big.png" width="300px">
     <hr>
     <input type="button" value="night" onclick="handler(this);">
