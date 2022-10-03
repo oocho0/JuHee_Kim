@@ -8,14 +8,14 @@ var Body = {
 }
 var Links = {
     set1: function(color) {
-        var alist = document.querySelectorAll('a');
-        var i = 0;
-        while(i < alist.length) {
-            alist[i].style.color = color;
-            i += 1;
-        }
+        $('a').css('color', color);
+ //       var alist = document.querySelectorAll('a');
+ //       var i = 0;
+ //       while(i < alist.length) {
+ //           alist[i].style.color = color;
+ //           i += 1;}
     }
-}
+ }
 function handler(self) {
     var target = document.querySelector('body');
     if (self.value === 'night'){
