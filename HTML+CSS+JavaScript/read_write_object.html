@@ -58,12 +58,12 @@
             document.write(i, ' : ', ours[i], '<br><br>')
         }
     </script>
-
+    <hr>
     <h2>Property & Method</h2>
     <script>
             ours.showAll = function() {
-                for (var key in ours) {
-                    document.write(key, " : ", ours[key], '<br>');
+                for (var key in this) {
+                    document.write(key, " : ", this[key], '<br>');
                 }
             }
             ours.showAll();
