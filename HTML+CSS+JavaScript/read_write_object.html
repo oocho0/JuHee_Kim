@@ -12,6 +12,13 @@
         }
         * {
             font-family: '116watermelon';
+            font-size: 20pt;
+        }
+        h1 {
+            font-size: 30pt;
+        }
+        h2 {
+            font-size: 25pt;
         }
     </style>
 </head>
@@ -20,11 +27,15 @@
     <h2>create</h2>
     <script>
         var ours = {
-            "lovely pre-developer" : "oochoo",
-            "professional developer" : "mydong",
-            "what a lovely being" : "dalgom",
-            "quiet but having a powerful presence" : "puleum"
+            "predeveloper" : "oochoo",
+            "prodeveloper" : "mydong",
+            "lovely" : "dalgom",
+            "presence" : "puleum"
         }
+        document.write('lovely pre-developer : ', ours.predeveloper, '<br><br>');
+        document.write('professional developer : ', ours.prodeveloper, '<br><br>');
+        document.write('what a lovely being : ', ours.lovely, '<br><br>');
+        document.write('quiet but having a powerful presence : ', ours.presence);
     </script>
 </body>
 </html>
