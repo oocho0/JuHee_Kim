@@ -19,8 +19,8 @@
     document.querySelectorAll(candidates).forEach(function(e) {
       list.push(e.innerText);
     });
-    list = list.filer((v, i, a) = > a.indexOf(v)===i);
-    shuffle(list)
+    list = list.filer(v, i, a) => a.indexOf(v) === i );
+    shuffle(list);
     console.log(list.slice(0, winners));
 </script>
 </body>
