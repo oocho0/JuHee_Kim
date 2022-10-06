@@ -3,3 +3,18 @@
 <div>
     {{  question.content  }}
 </div>
+
+<h5> This Question has got the {{  question.answer_set.count  }} answer(s).</h5>
+<div>
+    <ul>
+        {% for answer in question.answer_set.all %}
+            <li>{{  answer.content  }}</li>
+        {%  endfor %}
+    </ul>
+</div>
+
+<form action="{% url 'pybo:answer_create' question.id %}" method="post">
+    {% csrf_token %}
+    <textarea name="content" id="content" rows="15"></textarea>
+    <input type="submit" value="Submit Answer">
+ </form>
