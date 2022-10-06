@@ -1,9 +1,36 @@
-{% if question_list %}
-  <ul>
-  {% for question in question_list %}
-      <li><a href="{% url 'pybo:detail' question.id %}">{{  question.subject  }}</a></li>
-  {% endfor %}
-  </ul>
-{% else %}
-  <p>No Question</p>
-{% endif %}
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}">
+<div class="container my-3">
+  <table class="table">
+    <thead>
+    <tr class="thead-dark">
+      <th>number</th>
+      <th>title</th>
+      <th>create time</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% if question_list %}
+    {% for question in question_list %}
+    <tr>
+      <td>
+        {{  forloop.counter  }}
+      </td>
+      <td>
+        <a href="{% url 'pybo:detail' question.id %}">
+          {{  question.subject  }}
+        </a>
+      </td>
+      <td>
+        {{ question.create_date  }}
+      </td>
+    </tr>
+    {% endfor %}
+    {% else %}
+    <tr>
+      <td colspan="3">No Question</td>
+    </tr>
+    {% endif %}
+    </tbody>
+  </table>
+</div>
