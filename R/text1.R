@@ -1,0 +1,6 @@
+z <- scan("data/iotest1.txt", what="")
+y <- as.numeric(z)
+sort(y)
+sort(y, decreasing=T)
+sum(y)
+mean(y)
