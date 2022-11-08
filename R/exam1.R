@@ -100,7 +100,6 @@ x[c(T,F)]
 x > 5
 x[x > 5] 
 x[x > 5 & x < 15]
-x[x > 5 && x < 15]
 x[x > 5 | x < 15]
 
 # 백터의 원소들에 이름 설정
@@ -156,7 +155,7 @@ sample(1:10, 7, replace=T)
 
 # 백터는 문자열 결합을 함수로 --> paste()
 paste("I'm","Duli","!!")
-paste("I'm","Duli","!!", sep="")
+paste0("I'm", "Duli", "!!")
 paste0("I'm","Duli","!!")
 
 
@@ -165,7 +164,7 @@ fruit <- c("Apple", "Banana", "Strawberry")
 food <- c("Pie","Juice", "Cake")
 paste(fruit, food)
 
-paste(fruit, food, sep="")
+paste0(fruit, food)
 paste(fruit, food, sep=":::")
 paste(fruit, food, sep="", collapse="-")
 paste(fruit, food, sep="", collapse="")
