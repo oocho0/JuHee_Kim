@@ -101,3 +101,24 @@ df.loc[5] = ["We", "are", "a", "family", "!"]
 print(df, '\n', "*"*80)
 df.loc['new_row'] = df.loc[4]
 print(df)
+
+print("="*80, "\n revising elements on dataframe")
+family_data = {'oochoo': [93, 11, 18], 'mydong': [91, "five", 27], 'dalgom': [22, 1, 15], 'puleum': [21, 1, 4]}
+df = pd.DataFrame(family_data, index=['year', 'month', 'date'])
+print(df, '\n', "*"*80)
+
+df.loc['month', 'mydong'] = 5
+print(df, '\n', "*"*80)
+
+df.loc['month', ['dalgom', 'puleum']] = "one"
+print(df, '\n', "*"*80)
+
+df.loc['month', ['dalgom', 'puleum']] = 1, 1
+print(df)
+
+print("="*80, "\n dataframe transpose")
+df = df.transpose()
+print(df, '\n', "*"*80)
+
+df = df.T
+print(df)
