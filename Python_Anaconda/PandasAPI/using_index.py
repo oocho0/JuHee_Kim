@@ -15,11 +15,12 @@ df_3 = df.copy()
 df_3 = df_3.set_index(["dalgom", "puleum"])
 print(df_3)
 
-print("="*80, "\n row index to reindex()")
+print("="*80, "\n")
 data_dic = {'num0': [2, 4, 6], 'num1': [8, 10, 12], 'num2': [14, 16, 18], 'num3': [20, 22, 24], 'num4': [26, 28, 30]}
 df = pd.DataFrame(data_dic, index=['row_0', 'row_1', 'row_2'])
-print(df, '\n', "*"*80)
+print(df)
 
+print("="*80, "\n row index to reindex()")
 df_4 = df.copy()
 df_4 = df_4.reindex(['row_0', 'row_1', 'row_2', 'row_3', 'row_4'])
 print(df_4, '\n', "*"*80)
@@ -37,3 +38,8 @@ print("="*80, "\n sort by row index")
 df_7 = df.copy()
 df_7 = df_7.sort_index(ascending=False)
 print(df_7)
+
+print("="*80, "\n sort by a column")
+df_8 = df.copy()
+df_8 = df_8.sort_values(by='num3', ascending=False)
+print(df_8)
