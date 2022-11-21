@@ -5,7 +5,6 @@ import re
 import googlemaps
 
 print("read csv")
-
 df_1 = pd.read_csv('data/read_csv_sample.csv')
 print(df_1, "\n", "*" * 80)
 df_2 = pd.read_csv('data/read_csv_sample.csv', header=None)
@@ -54,6 +53,7 @@ print(type(etfs), "\n", etfs, "\n", "*" * 80)
 df_8 = pd.DataFrame(etfs)
 print(df_8)
 
+"""
 print("=" * 80, "\n read google geocoding API")
 maps = googlemaps.Client(key="my_key")  # my key값 입력
 lat = []
@@ -73,6 +73,7 @@ for place in ["광화문", "협재해수욕장", "예술의전당"]:
         print(i)
 df_9 = pd.DataFrame({'위도': lat, '경도': lng}, index=places)
 print(df_9)
+"""
 
 print("=" * 80, "\n write csv")
 family_data = {"num": [0, 1, 2], 'oochoo': [93, 11, 18], 'mydong': [91, 5, 27], 'dalgom': [22, 1, 15],
