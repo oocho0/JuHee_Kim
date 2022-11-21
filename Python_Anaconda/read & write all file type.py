@@ -1,6 +1,4 @@
 import pandas as pd
-import xlrd
-import openpyxl
 from bs4 import BeautifulSoup
 import requests
 import re
@@ -20,7 +18,7 @@ print("=" * 80, "\n read excel")
 df_5 = pd.read_excel('data/남북한발전전력량.xlsx', engine='openpyxl')
 df_6 = pd.read_excel('data/남북한발전전력량.xlsx', engine='openpyxl', header=None)
 print(df_5, "\n", "*" * 80)
-print(df_6, "\n", "*" * 80)
+print(df_6)
 
 print("=" * 80, "\n read json")
 df_7 = pd.read_json('data/read_json_sample.json')
