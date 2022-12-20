@@ -124,53 +124,24 @@
   },
   {
    "cell_type": "code",
-<<<<<<< Updated upstream
-   "execution_count": 5,
-=======
-<<<<<<< HEAD
    "execution_count": 22,
-=======
-   "execution_count": 5,
->>>>>>> bigdata
->>>>>>> Stashed changes
    "id": "67c481fe",
    "metadata": {},
    "outputs": [
     {
      "data": {
       "text/plain": [
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
        "array([[  2.,   3.,   4.,   6.,   9.,   8.,  12.,  18.,  27.,  16.,  24.,\n",
        "         36.,  54.,  81.,  32.,  48.,  72., 108., 162., 243.]])"
       ]
      },
      "execution_count": 22,
-=======
->>>>>>> Stashed changes
-       "array([[2., 3., 4., 6., 9.]])"
-      ]
-     },
-     "execution_count": 5,
-<<<<<<< Updated upstream
-=======
->>>>>>> bigdata
->>>>>>> Stashed changes
      "metadata": {},
      "output_type": "execute_result"
     }
    ],
    "source": [
-<<<<<<< Updated upstream
-    "poly=PolynomialFeatures(include_bias=False)\n",
-=======
-<<<<<<< HEAD
     "poly=PolynomialFeatures(degree=5, include_bias=False)\n",
-=======
-    "poly=PolynomialFeatures(include_bias=False)\n",
->>>>>>> bigdata
->>>>>>> Stashed changes
     "poly.fit([[2,3]])\n",
     "poly.transform([[2,3]])"
    ]
@@ -349,28 +320,14 @@
   },
   {
    "cell_type": "code",
-<<<<<<< Updated upstream
-   "execution_count": 14,
-   "id": "e486dd37",
-=======
-<<<<<<< HEAD
    "execution_count": 23,
    "id": "a9345779",
-=======
-   "execution_count": 14,
-   "id": "e486dd37",
->>>>>>> bigdata
->>>>>>> Stashed changes
    "metadata": {},
    "outputs": [],
    "source": [
     "from sklearn.preprocessing import StandardScaler\n",
     "ss=StandardScaler()\n",
     "ss.fit(train_poly)\n",
-<<<<<<< Updated upstream
-    "train_scaled=ss.transform(train_poly)\n",
-=======
-<<<<<<< HEAD
     "train_scaled=ss.transform(train_poly)"
    ]
   },
@@ -381,10 +338,6 @@
    "metadata": {},
    "outputs": [],
    "source": [
-=======
-    "train_scaled=ss.transform(train_poly)\n",
->>>>>>> bigdata
->>>>>>> Stashed changes
     "test_scaled=ss.transform(test_poly)"
    ]
   },
@@ -435,9 +388,6 @@
   },
   {
    "cell_type": "code",
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
    "execution_count": 25,
    "id": "a9a8b0bc",
    "metadata": {},
@@ -597,32 +547,10 @@
       "  model = cd_fast.enet_coordinate_descent(\n",
       "/Users/juheekim/opt/anaconda3/envs/data_venv/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:648: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.297e+04, tolerance: 5.183e+02\n",
       "  model = cd_fast.enet_coordinate_descent(\n"
-=======
->>>>>>> Stashed changes
-   "execution_count": 17,
-   "id": "a9a8b0bc",
-   "metadata": {},
-   "outputs": [
-    {
-     "ename": "ModuleNotFoundError",
-     "evalue": "No module named 'matplotlob'",
-     "output_type": "error",
-     "traceback": [
-      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
-      "\u001b[0;31mModuleNotFoundError\u001b[0m                       Traceback (most recent call last)",
-      "Cell \u001b[0;32mIn [17], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m \u001b[38;5;28;01mimport\u001b[39;00m \u001b[38;5;21;01mmatplotlob\u001b[39;00m\u001b[38;5;21;01m.\u001b[39;00m\u001b[38;5;21;01mpyplot\u001b[39;00m \u001b[38;5;28;01mas\u001b[39;00m \u001b[38;5;21;01mplt\u001b[39;00m\n\u001b[1;32m      2\u001b[0m train_score\u001b[38;5;241m=\u001b[39m[]\n\u001b[1;32m      3\u001b[0m test_score\u001b[38;5;241m=\u001b[39m[]\n",
-      "\u001b[0;31mModuleNotFoundError\u001b[0m: No module named 'matplotlob'"
-<<<<<<< Updated upstream
-=======
->>>>>>> bigdata
->>>>>>> Stashed changes
      ]
     }
    ],
    "source": [
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
     "train_score=[]\n",
     "test_score=[]\n",
     "\n",
@@ -735,17 +663,6 @@
    "metadata": {},
    "outputs": [],
    "source": []
-=======
->>>>>>> Stashed changes
-    "import matplotlob.pyplot as plt\n",
-    "train_score=[]\n",
-    "test_score=[]\n",
-    "          "
-   ]
-<<<<<<< Updated upstream
-=======
->>>>>>> bigdata
->>>>>>> Stashed changes
   }
  ],
  "metadata": {
