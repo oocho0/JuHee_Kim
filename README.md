@@ -4,7 +4,6 @@
 </p>
 <br><br>
 =======
-![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)
 ![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)
 ![Github all releases](https://img.shields.io/github/downloads/Naereen/StrapDown.js/total.svg)
 ![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgjbae1212%2Fhit-counter&count_bg=%23DFDFDF&title_bg=%23FFEBEB&icon=github.svg&icon_color=%23CF86C4&title=hits&edge_flat=false)
