@@ -4,11 +4,6 @@
 </p>
 <br><br>
 =======
-
-# JuHee-kim
-
-oochoo's study note
-![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=oochoo's%20GitHub&fontSize=70)
 ![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)
 ![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)
 ![Github all releases](https://img.shields.io/github/downloads/Naereen/StrapDown.js/total.svg)
